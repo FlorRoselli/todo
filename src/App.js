@@ -70,7 +70,6 @@ function App() {
      student={todo.student} 
      key={todo.id} 
      id={todo.id}
-     handleUpdate={handleUpdate}
      handleDelete={handleDelete}
      />
   ))
